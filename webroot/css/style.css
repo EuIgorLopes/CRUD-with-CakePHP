@@ -1,0 +1,54 @@
+@font-face {
+   font-family: BaliviaFree;
+   src: url("../fonts/BaliviaFreeBold-BW548.ttf");
+}
+
+@font-face {
+   font-family: MyriadPro-Regular;
+   src: url("../fonts/MyriadPro-Regular.otf");
+}
+
+body{
+   background: #EAE9DF;
+   color: #424241;
+   font-family: MyriadPro-Regular;
+}
+.btn-lg{
+  color: #ffffff;
+  background: #EF8181;
+}
+
+.title-font{
+   font-family: BaliviaFree;
+}
+
+.text-red{
+   color: #EF8181;
+}
+
+.bg-red{
+   background: #EF8181;
+}
+
+.border-red{
+   border: solid #EF8181 1px;
+}
+.border-rounded-login{
+   border-radius: 30px;
+}
+
+@media (min-width: 992px){
+   .bg-login{
+      background: #EAE9DF url("../images/bg-imagem-fundo.png");
+      background-size: cover;
+   }
+}
+.placholder-campo::placeholder{
+   color:  #EF8181;
+}
+.transparente{
+  border: solid #EF8181 1px;
+  background:  #EAE9DF;
+}
+
+
