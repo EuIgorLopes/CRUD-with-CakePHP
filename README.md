@@ -25,6 +25,23 @@ In case you want to use a custom app dir name (e.g. `/myapp/`):
 composer create-project --prefer-dist cakephp/app myapp
 ```
 
+Create a copy of .env and app_local.php
+
+```bash
+cd config
+cp .env.example .env
+cp app_local.example.php app_local.php
+```
+
+Create an empty database for your project using. 
+In .env and app_local.php config your databese and default values
+
+Run the next comand in root of your project to create the tables in database
+
+```bash
+bin/cake migrations migrate
+```
+
 You can now either use your machine's webserver to view the default home page, or start
 up the built-in webserver with:
 
